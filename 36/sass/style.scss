@@ -1,0 +1,52 @@
+.sppb-row-overlay{
+    position: absolute;
+    background-color: (0, 0, 0, 0.8);
+    background-image: url('/36/images/Services10.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 100%;
+    font-family: Arial, sans-serif;
+    .sppb-row{
+        padding: 15% 0;
+        .sppb-addon{
+            padding-bottom: 10%;
+            .sppb-addon-title{
+                font-size: 17px;
+                color: silver;
+            }
+        }
+        .font-weight-6{
+            color: white;
+            font-size: 32px;
+        }
+        .ce-title-line{
+            width: 10%;
+            height: 2px;
+            background-color: yellow;
+            margin: 20px auto 0 0;
+        }
+    }
+    .sppb-inner{
+        text-align: center;
+        .iconbox-medium{
+            .fa{
+                font-size: 25px;
+                padding: 6% 15%;
+                color: white;
+                border: 1px solid rgba(255, 255, 255, 0.3);
+                border-radius: 100px;
+            }
+        }
+        .text-box{
+            padding-top: 8%;
+            .nd{
+                color: yellow;
+            }
+            .text-white {
+                font-size: 18px;
+            }
+        }
+    }
+}

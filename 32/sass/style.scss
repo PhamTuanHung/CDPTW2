@@ -1,0 +1,48 @@
+.type-32{
+    padding: 10% 18%;
+    .sppb-optin{
+        padding: 10% 10%;
+        border-color: #ddd ;
+        box-shadow: 0 0 5px #ccc;
+        .sppb-optin1{
+            text-align: center;
+            padding-bottom: 40px;
+            font-weight: 600;
+            line-height: 50px;
+            .sppb-addon-title{
+                font-size: 38px;
+            }
+            .nd{
+                opacity: 0.6;
+                font-size: 18px;
+                line-height: 21px;
+                margin-bottom: 14px;
+            }
+        }
+        .sppb-optin-form{
+            padding-left: 12%;
+            .fom{ 
+                margin-left: 16%;
+                display: contents;
+                .email{
+                    width: 66%;
+                    height: 65px;
+                    padding: 15px;
+                    font-size: 16px;
+                    border-width : 1px ;
+                    border-style : solid;
+                    border-color: #ddd ;
+                    border-radius: 7px;
+        
+                }
+            }
+            .btn{
+                background-color: black;
+                color: white;
+                height: 65px;
+                padding: 0px 15px;
+                margin-left: 4%;
+            }
+        }
+    }
+}

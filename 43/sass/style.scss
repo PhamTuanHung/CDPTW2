@@ -1,0 +1,110 @@
+.md-sm-36 {
+    padding-right: 0;
+    padding-left: 0;
+  
+    .col-column {
+      position: relative;
+      z-index: 1;
+      width: 100%;
+  
+      .text-colcolumn1 {
+        position: relative;
+        width: 110%;
+        padding: 80px;
+        overflow: hidden;
+        background-color: #000;
+  
+        &:hover {
+          .icon-globe {
+            top: 0px;
+            transition: all 0.3s ease-out 0s;
+          }
+  
+          .h5-title-content {
+            top: 0px;
+            transition: all 0.3s ease-out 0s;
+          }
+  
+          .p-small-text {
+            transition: all 0.3s ease-out 0s;
+            top: 2px;
+            opacity: 0.5;
+          }
+        }
+  
+        .icon-globe {
+          position: relative;
+          color: #fff;
+          top: 45px;
+          margin: 0 auto;
+          font-size: 60px;
+        }
+  
+        .h5-title-content {
+          position: relative;
+          padding-top: 10px;
+          color: #fff;
+          top: 42px;
+        }
+  
+        .p-small-text {
+          position: relative;
+          color: #fff;
+          opacity: 0;
+          top: 150px;
+        }
+      }
+  
+      .text-colcolumn2 {
+        position: relative;
+        width: 110%;
+        padding: 80px;
+        overflow: hidden;
+        background-color: #302b2b;
+  
+        &:hover {
+          .icon-globe {
+            top: 0px;
+            transition: all 0.3s ease-out 0s;
+          }
+  
+          .h5-title-content {
+            top: 0px;
+            transition: all 0.3s ease-out 0s;
+          }
+  
+          .p-small-text {
+            transition: all 0.3s ease-out 0s;
+            top: 2px;
+            opacity: 0.5;
+          }
+        }
+  
+        .icon-globe {
+          position: relative;
+          color: #fff;
+          top: 45px;
+          transition: all 0.3s ease-out 0s;
+          margin: 0 auto;
+          font-size: 60px;
+        }
+  
+        .h5-title-content {
+          position: relative;
+          padding-top: 10px;
+          color: #fff;
+          top: 42px;
+          transition: all 0.3s ease-out 0s;
+        }
+  
+        .p-small-text {
+          position: relative;
+          color: #fff;
+          opacity: 0;
+          top: 150px;
+          transition: all 0.3s ease-out 0s;
+        }
+      }
+    }
+  }
+  

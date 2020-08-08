@@ -1,0 +1,38 @@
+.type-32 {
+  padding: 10% 18%; }
+  .type-32 .sppb-optin {
+    padding: 10% 10%;
+    border-color: #ddd;
+    box-shadow: 0 0 5px #ccc; }
+    .type-32 .sppb-optin .sppb-optin1 {
+      text-align: center;
+      padding-bottom: 40px;
+      font-weight: 600;
+      line-height: 50px; }
+      .type-32 .sppb-optin .sppb-optin1 .sppb-addon-title {
+        font-size: 38px; }
+      .type-32 .sppb-optin .sppb-optin1 .nd {
+        opacity: 0.6;
+        font-size: 18px;
+        line-height: 21px;
+        margin-bottom: 14px; }
+    .type-32 .sppb-optin .sppb-optin-form {
+      padding-left: 12%; }
+      .type-32 .sppb-optin .sppb-optin-form .fom {
+        margin-left: 16%;
+        display: contents; }
+        .type-32 .sppb-optin .sppb-optin-form .fom .email {
+          width: 66%;
+          height: 65px;
+          padding: 15px;
+          font-size: 16px;
+          border-width: 1px;
+          border-style: solid;
+          border-color: #ddd;
+          border-radius: 7px; }
+      .type-32 .sppb-optin .sppb-optin-form .btn {
+        background-color: black;
+        color: white;
+        height: 65px;
+        padding: 0px 15px;
+        margin-left: 4%; }

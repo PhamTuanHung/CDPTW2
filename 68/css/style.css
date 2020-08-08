@@ -1,0 +1,28 @@
+.all {
+  padding: 10% 0; }
+  .all .sppb-column-addons {
+    padding: 20% 15%;
+    border-color: #ddd;
+    box-shadow: 0 0 16px #cccccc87; }
+    .all .sppb-column-addons .sppb-media-content {
+      padding-top: 10%;
+      text-align: center; }
+      .all .sppb-column-addons .sppb-media-content .sppb-addon-title {
+        font-size: 35px;
+        line-height: 35px;
+        font-weight: 600; }
+      .all .sppb-column-addons .sppb-media-content .sppb-addon-text {
+        padding: 10% 0 0 0; }
+        .all .sppb-column-addons .sppb-media-content .sppb-addon-text .divider-line {
+          width: 100%;
+          height: 1px;
+          background-color: #ebebeb; }
+        .all .sppb-column-addons .sppb-media-content .sppb-addon-text .subtext {
+          padding-top: 10%;
+          font-size: 16px;
+          font-size: 18px;
+          line-height: 23px;
+          color: #8f7a7a; }
+  .all .sppb-column-addons:hover {
+    background-color: black;
+    color: white; }

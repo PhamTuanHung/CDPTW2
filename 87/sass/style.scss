@@ -1,0 +1,57 @@
+.MenuDark_64 {
+    padding-top: 152px;
+    font-family: "Roboto";
+    .content {
+        .title {
+            margin-top: 20px;
+            margin-bottom: 3px;
+            font-weight: 600;
+            line-height: 50px;
+        }
+        .dark {
+            color: #101010;
+            
+
+            &:hover {
+                color: #fccb06;
+                text-decoration: none;
+            }
+        }
+    }
+
+    .box-banner {
+        .accordion {
+            .acc-title {
+                padding: 20px 20px 20px 50px;
+                cursor: pointer;
+                position: relative;
+                color: black;
+                border: 1px solid #ebebeb;
+                margin-bottom: 15px;
+
+                background: #fff;
+                i {
+                    position: absolute;
+                    top: 50%;
+                    right: auto;
+                    left: 15px;
+                    color: #000;
+                }
+                span {
+                    float: left;
+                }
+                .ui-icon {
+                    background-image: none;
+                }
+            }
+            .fish {
+                border-top: 0px solid transparent;
+                padding: 40px;
+                margin: 20px 0;
+                background: #fff;
+                border: 1px solid #ebebeb;
+                height: auto;
+            }
+        }
+    }
+}

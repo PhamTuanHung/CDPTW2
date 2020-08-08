@@ -1,0 +1,35 @@
+.type-15 {
+  position: absolute;
+  text-align: center;
+  background-image: url(/15/images/15.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  font-family: Arial, sans-serif; }
+  .type-15 .sppb-addon {
+    padding-top: 20%; }
+    .type-15 .sppb-addon .sppb-addon-title {
+      color: gold; }
+    .type-15 .sppb-addon .font-weight-6 {
+      color: white; }
+    .type-15 .sppb-addon .ce-title-line {
+      width: 7%;
+      height: 2px;
+      background-color: yellowgreen;
+      margin: 15px auto 0 auto; }
+    .type-15 .sppb-addon .ce-sub-text {
+      padding-top: 20px;
+      color: gainsboro;
+      font-size: 13px; }
+    .type-15 .sppb-addon .BB {
+      padding-top: 35px; }
+      .type-15 .sppb-addon .BB .nut {
+        color: white;
+        background-color: yellow;
+        border: none;
+        border-radius: 14px;
+        padding: 8px 21px; }
+      .type-15 .sppb-addon .BB .nut:hover {
+        background-color: black; }

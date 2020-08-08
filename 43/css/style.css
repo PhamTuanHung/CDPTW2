@@ -1,0 +1,74 @@
+.md-sm-36 {
+  padding-right: 0;
+  padding-left: 0; }
+  .md-sm-36 .col-column {
+    position: relative;
+    z-index: 1;
+    width: 100%; }
+    .md-sm-36 .col-column .text-colcolumn1 {
+      position: relative;
+      width: 110%;
+      padding: 80px;
+      overflow: hidden;
+      background-color: #000; }
+      .md-sm-36 .col-column .text-colcolumn1:hover .icon-globe {
+        top: 0px;
+        transition: all 0.3s ease-out 0s; }
+      .md-sm-36 .col-column .text-colcolumn1:hover .h5-title-content {
+        top: 0px;
+        transition: all 0.3s ease-out 0s; }
+      .md-sm-36 .col-column .text-colcolumn1:hover .p-small-text {
+        transition: all 0.3s ease-out 0s;
+        top: 2px;
+        opacity: 0.5; }
+      .md-sm-36 .col-column .text-colcolumn1 .icon-globe {
+        position: relative;
+        color: #fff;
+        top: 45px;
+        margin: 0 auto;
+        font-size: 60px; }
+      .md-sm-36 .col-column .text-colcolumn1 .h5-title-content {
+        position: relative;
+        padding-top: 10px;
+        color: #fff;
+        top: 42px; }
+      .md-sm-36 .col-column .text-colcolumn1 .p-small-text {
+        position: relative;
+        color: #fff;
+        opacity: 0;
+        top: 150px; }
+    .md-sm-36 .col-column .text-colcolumn2 {
+      position: relative;
+      width: 110%;
+      padding: 80px;
+      overflow: hidden;
+      background-color: #302b2b; }
+      .md-sm-36 .col-column .text-colcolumn2:hover .icon-globe {
+        top: 0px;
+        transition: all 0.3s ease-out 0s; }
+      .md-sm-36 .col-column .text-colcolumn2:hover .h5-title-content {
+        top: 0px;
+        transition: all 0.3s ease-out 0s; }
+      .md-sm-36 .col-column .text-colcolumn2:hover .p-small-text {
+        transition: all 0.3s ease-out 0s;
+        top: 2px;
+        opacity: 0.5; }
+      .md-sm-36 .col-column .text-colcolumn2 .icon-globe {
+        position: relative;
+        color: #fff;
+        top: 45px;
+        transition: all 0.3s ease-out 0s;
+        margin: 0 auto;
+        font-size: 60px; }
+      .md-sm-36 .col-column .text-colcolumn2 .h5-title-content {
+        position: relative;
+        padding-top: 10px;
+        color: #fff;
+        top: 42px;
+        transition: all 0.3s ease-out 0s; }
+      .md-sm-36 .col-column .text-colcolumn2 .p-small-text {
+        position: relative;
+        color: #fff;
+        opacity: 0;
+        top: 150px;
+        transition: all 0.3s ease-out 0s; }
