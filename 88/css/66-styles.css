@@ -1,0 +1,76 @@
+.type-21 {
+  background: #f5f1f1; }
+  .type-21 .sppb-addon .sppb-addon-title {
+    margin-bottom: 3px;
+    line-height: 40px;
+    color: #888;
+    font-weight: 400; }
+    .type-21 .sppb-addon .sppb-addon-content .td {
+      margin-bottom: 3px;
+      font-weight: 600;
+      line-height: 50px;
+      font-size: 35px; }
+    .type-21 .sppb-addon .sppb-addon-content .ce-title-line {
+      width: 12%;
+      height: 2px;
+      background-color: #fccb06;
+      margin: 15px 88% 0 auto; }
+.type-21 .accordion_item {
+  margin: 10px 0px;
+  opacity: 0.9; }
+  .type-21 .accordion_item .panel-title {
+    border: 1px solid #f5f7f3;
+    background: #fff; }
+  .type-21 .accordion_item_title {
+    padding: 25px 30px;
+    color: #0e0e0e;
+    display: block;
+    transition: all ease 0.2s;
+    position: relative; }
+    .type-21 .accordion_item_title .btn_toggle {
+      position: absolute;
+      font-size: 35px;
+      right: 3%;
+      top: 10%;
+      opacity: 0.6; }
+  .type-21 .accordion_item_title:hover {
+    text-decoration: none; }
+  .type-21 .accordion_item .accordion_inner {
+    padding: 20px 30px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4;
+    color: #777;
+    border: 1px solid #f5f7f3;
+    margin-top: 15px;
+    background: #fff; }
+  .type-21 .accordion_item .panel-title a {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.4;
+    letter-spacing: 0.2px;
+    opacity: 0.9;
+    position: relative; }
+    .type-21 .accordion_item .panel-title a:hover {
+      color: #444;
+      text-decoration: none; }
+    .type-21 .accordion_item .panel-title a.collapsed::after, .type-21 .accordion_item .panel-title a::after {
+      content: "\f105";
+      font-family: fontawesome;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 60px;
+      position: absolute;
+      right: 35px;
+      top: 2px;
+      color: #000;
+      opacity: 0.8; }
+    .type-21 .accordion_item .panel-title a:after {
+      content: "\f107";
+      color: #fff; }
+  .type-21 .accordion_item .panel-heading.active .accordion_item_title {
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    background: #000; }

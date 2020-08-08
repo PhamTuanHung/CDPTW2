@@ -1,0 +1,110 @@
+$primary-color: #0e0e0e;
+@mixin font($font-size, $font-weight, $line-height) {
+    font-size: $font-size;
+    font-weight: $font-weight;
+    line-height: $line-height;
+}
+
+.type-21 {
+    background: rgb(245, 241, 241);
+    .sppb-addon {
+        .sppb-addon-title {
+            margin-bottom: 3px;
+            line-height: 40px;
+            color: #888;
+            font-weight: 400;
+        }
+        .sppb-addon-content {
+            .td {
+                margin-bottom: 3px;
+                font-weight: 600;
+                line-height: 50px;
+                font-size: 35px;
+            }
+            .ce-title-line {
+                width: 12%;
+                height: 2px;
+                background-color: #fccb06;
+                margin: 15px 88% 0 auto;
+            }
+        }
+    }
+    .accordion {
+        &_item {
+            margin: 10px 0px;
+            opacity: 0.9;
+            //Question
+            .panel-title {
+                border: 1px solid #f5f7f3;
+                background: #fff;
+            }
+
+            &_title {
+                padding: 25px 30px;
+                color: $primary-color;
+                display: block;
+                transition: all ease 0.2s;
+                position: relative;
+                & .btn_toggle {
+                    position: absolute;
+                    font-size: 35px;
+                    right: 3%;
+                    top: 10%;
+
+                    opacity: 0.6;
+                }
+            }
+            &_title:hover {
+                text-decoration: none;
+                // color: #111111;
+            }
+            //Answer
+            .accordion_inner {
+                padding: 20px 30px;
+                display: inline-block;
+                @include font(16px, 300, 1.4);
+                color: #777;
+                border: 1px solid #f5f7f3;
+                margin-top: 15px;
+                background: #fff;
+            }
+            .panel-title a {
+                @include font(20px, 500, 1.4);
+                letter-spacing: 0.2px;
+                opacity: 0.9;
+                position: relative;
+                &:hover {
+                    color: #444;
+                    text-decoration: none;
+                }
+
+                &.collapsed::after,
+                &::after {
+                    content: "\f105";
+                    font-family: fontawesome;
+
+                    @include font(20px, 700, 60px);
+                    position: absolute;
+                    right: 35px;
+                    top: 2px;
+                    color: #000;
+                    opacity: 0.8;
+                }
+
+                &:after {
+                    content: "\f107";
+                    color: #fff;
+                }
+            }
+            //Click Question
+            & .panel-heading.active {
+                & .accordion_item_title {
+                    font-size: 20px;
+                    font-weight: 500;
+                    color: #fff;
+                    background: #000;
+                }
+            }
+        }
+    }
+}
