@@ -1,3 +1,9 @@
+$top:10%;
+@mixin font($font-size, $line-height) {
+    font-size: $font-size;
+    line-height: $line-height;
+}
+
 .all{
     padding: 10% 0;
     .sppb-column-addons{
@@ -5,11 +11,10 @@
         border-color: #ddd ;
         box-shadow: 0 0 16px #cccccc87;
         .sppb-media-content{
-            padding-top: 10%;
+            padding-top: $top;
             text-align: center;
             .sppb-addon-title{
-                font-size: 35px;
-                line-height: 35px;
+                @include font(35px, 25px);
                 font-weight: 600;
             }
             .sppb-addon-text{
@@ -20,10 +25,8 @@
                     background-color: #ebebeb;
                 }
                 .subtext{
-                    padding-top: 10%;
-                    font-size: 16px;
-                    font-size: 18px;
-                    line-height: 23px;
+                    padding-top: $top;
+                    @include font(18px, 23px);
                     color :#8f7a7a;
                 }
             }

@@ -15,10 +15,12 @@
     color: #727272;
     font-family: 'Open Sans', sans-serif; }
     .type-40 .sppb-addon .ce-feature {
-      padding: 70px; }
+      padding: 60px; }
       .type-40 .sppb-addon .ce-feature .icon {
+        font-size: 60px;
         line-height: 1;
-        font-size: 60px; }
+        font-size: 60px;
+        line-height: 1; }
         .type-40 .sppb-addon .ce-feature .icon .fa {
           color: #fccb06; }
         .type-40 .sppb-addon .ce-feature .icon .title {

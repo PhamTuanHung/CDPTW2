@@ -28,7 +28,7 @@ file_put_contents("css/style.css",$style);
         <link rel="stylesheet" href="<?php echo $url_path ?>/css/style.css">
     </head>
     <body >
-        <?php include './68-content.php'; ?>
+        <?php include './73-content.php'; ?>
     </body>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/1818.js"></script>

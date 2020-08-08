@@ -1,3 +1,8 @@
+$primary-color: #727272;
+@mixin size($padding-top, $padding-left) {
+    padding-top: $padding-top;
+    padding-left: $padding-left;
+}
 .type-19{
     padding-top: 8%;
     font-family: 'Montserrat', sans-serif;
@@ -7,10 +12,9 @@
             width: 100%;
             }
         .sppb-addon{
-            padding-top: 20px;
-            padding-left: 4%;
+            @include size(20px,4%);
             .sppb-addon-title{
-                color: gray;
+                color: $primary-color;
             }
             .sppb-addon-content{
                 padding-top: 12px;
@@ -28,12 +32,11 @@
             .sppb-addon-text{
                 font-size: 14px;
                 line-height: 23px;
-                color: #727272;
+                color: $primary-color;
                 padding-top: 10%;
             }
             .btn{
-                padding-top: 10% ;
-                padding-left: 0%;
+                @include size(10% ,0%);
                 .nut{
                     border: none;
                     color: white;

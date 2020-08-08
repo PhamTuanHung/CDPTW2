@@ -1,3 +1,4 @@
+$primary-color: white;
 .type-15{
 	position: absolute;
 	text-align: center;
@@ -14,7 +15,9 @@
             color: gold;
         }
         .font-weight-6{
-            color: white;
+            color: $primary-color;
+            font-weight: 600;
+            font-size: 35px;
         }
         .ce-title-line{
             width: 7%;
@@ -26,11 +29,12 @@
             padding-top: 20px;
             color: gainsboro;
             font-size: 13px;
+            opacity: 0.7;
         }
         .BB{
             padding-top: 35px;
             .nut{
-                color: white;
+                color:$primary-color;
                 background-color: yellow;
                 border: none;
                 border-radius: 14px;

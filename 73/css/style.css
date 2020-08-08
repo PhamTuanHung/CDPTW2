@@ -9,7 +9,7 @@
       text-align: center; }
       .all .sppb-column-addons .sppb-media-content .sppb-addon-title {
         font-size: 35px;
-        line-height: 35px;
+        line-height: 25px;
         font-weight: 600; }
       .all .sppb-column-addons .sppb-media-content .sppb-addon-text {
         padding: 10% 0 0 0; }
@@ -19,7 +19,6 @@
           background-color: #ebebeb; }
         .all .sppb-column-addons .sppb-media-content .sppb-addon-text .subtext {
           padding-top: 10%;
-          font-size: 16px;
           font-size: 18px;
           line-height: 23px;
           color: #8f7a7a; }

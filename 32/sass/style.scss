@@ -1,3 +1,4 @@
+$heght: 65px;
 .type-32{
     padding: 10% 18%;
     .sppb-optin{
@@ -26,7 +27,7 @@
                 display: contents;
                 .email{
                     width: 66%;
-                    height: 65px;
+                    height: $heght;
                     padding: 15px;
                     font-size: 16px;
                     border-width : 1px ;
@@ -39,7 +40,7 @@
             .btn{
                 background-color: black;
                 color: white;
-                height: 65px;
+                height: $heght;
                 padding: 0px 15px;
                 margin-left: 4%;
             }

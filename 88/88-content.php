@@ -12,11 +12,9 @@ $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
 
-<div class="type-21 pt-5 pb-5">
+<div class="type-88">
     <div class="container">
         <div class="row">
-
-
             <div class="col-md-6">
                 <div class="sppb-addon">
                     <h5 class="sppb-addon-title">

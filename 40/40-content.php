@@ -62,7 +62,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             Vestibulum ante ipsum primis sit amet justo elit faucibus orci luctus ultrices posuere cubilia Curae.
                         </div>
                         <a class="read-more" href="#">
-                            <i class="fa fa-angle-right">
+                        <i class="fa fa-angle-right">
                             </i>
                             READER MORE
                         </a>

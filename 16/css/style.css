@@ -29,7 +29,8 @@
         .type-16 .row .cot .sppb-addon .check {
           padding-top: 4%; }
           .type-16 .row .cot .sppb-addon .check .list {
-            padding-left: 0px; }
+            padding-left: 0px;
+            list-style: disc; }
         .type-16 .row .cot .sppb-addon .btn {
           padding-top: 5%; }
           .type-16 .row .cot .sppb-addon .btn .nut {

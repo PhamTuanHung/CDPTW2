@@ -12,7 +12,7 @@ $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
 
-<div class ="sppb-row-overlay">
+<div class="type-36">
     <div class ="container">
         <div class ="sppb-row">
             <div class="sppb-addon">

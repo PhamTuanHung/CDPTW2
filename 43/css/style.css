@@ -35,8 +35,8 @@
       .md-sm-36 .col-column .text-colcolumn1 .p-small-text {
         position: relative;
         color: #fff;
-        opacity: 0;
-        top: 150px; }
+        top: 150px;
+        opacity: 0; }
     .md-sm-36 .col-column .text-colcolumn2 {
       position: relative;
       width: 110%;
@@ -69,6 +69,6 @@
       .md-sm-36 .col-column .text-colcolumn2 .p-small-text {
         position: relative;
         color: #fff;
-        opacity: 0;
         top: 150px;
+        opacity: 0;
         transition: all 0.3s ease-out 0s; }

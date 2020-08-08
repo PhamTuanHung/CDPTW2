@@ -26,6 +26,7 @@ file_put_contents("css/style.css",$style);
         <link rel="stylesheet" href="<?php echo $url_path ?>/css/bootstrap.min.css">
         <link rel="stylesheet" href="<?php echo $url_path ?>/css/reset.css">
         <link rel="stylesheet" href="<?php echo $url_path ?>/css/style.css">
+        <link rel="stylesheet" href="<?php echo $url_path ?>/css/font-awesome.min.css">
     </head>
     <body >
         <?php include './40-content.php'; ?>

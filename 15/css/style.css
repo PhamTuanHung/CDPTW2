@@ -13,7 +13,9 @@
     .type-15 .sppb-addon .sppb-addon-title {
       color: gold; }
     .type-15 .sppb-addon .font-weight-6 {
-      color: white; }
+      color: white;
+      font-weight: 600;
+      font-size: 35px; }
     .type-15 .sppb-addon .ce-title-line {
       width: 7%;
       height: 2px;
@@ -22,7 +24,8 @@
     .type-15 .sppb-addon .ce-sub-text {
       padding-top: 20px;
       color: gainsboro;
-      font-size: 13px; }
+      font-size: 13px;
+      opacity: 0.7; }
     .type-15 .sppb-addon .BB {
       padding-top: 35px; }
       .type-15 .sppb-addon .BB .nut {

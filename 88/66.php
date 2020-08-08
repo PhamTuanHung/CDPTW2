@@ -17,7 +17,7 @@ $url_path = str_replace('\\', '/', $url_path);
 
     $styles = $scss->compile('@import "66-styles.scss";');
 
-    $css = fopen('css/66-styles.css','w');
+    $css = fopen('css/styles.css','w');
     
     fwrite($css,$styles);
 ?>

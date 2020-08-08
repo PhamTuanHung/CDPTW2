@@ -1,3 +1,8 @@
+$primary-color: #fff;
+@mixin top($top, $opacity) {
+  top: $top;
+  opacity: $opacity;
+}
 .md-sm-36 {
     padding-right: 0;
     padding-left: 0;
@@ -27,14 +32,13 @@
   
           .p-small-text {
             transition: all 0.3s ease-out 0s;
-            top: 2px;
-            opacity: 0.5;
+            @include top(2px, 0.5);
           }
         }
   
         .icon-globe {
           position: relative;
-          color: #fff;
+          color:$primary-color;
           top: 45px;
           margin: 0 auto;
           font-size: 60px;
@@ -43,15 +47,14 @@
         .h5-title-content {
           position: relative;
           padding-top: 10px;
-          color: #fff;
+          color:$primary-color;
           top: 42px;
         }
   
         .p-small-text {
           position: relative;
-          color: #fff;
-          opacity: 0;
-          top: 150px;
+          color:$primary-color;
+          @include top(150px, 0);
         }
       }
   
@@ -75,14 +78,13 @@
   
           .p-small-text {
             transition: all 0.3s ease-out 0s;
-            top: 2px;
-            opacity: 0.5;
+            @include top(2px, 0.5);
           }
         }
   
         .icon-globe {
           position: relative;
-          color: #fff;
+          color:$primary-color;
           top: 45px;
           transition: all 0.3s ease-out 0s;
           margin: 0 auto;
@@ -92,16 +94,16 @@
         .h5-title-content {
           position: relative;
           padding-top: 10px;
-          color: #fff;
+          color:$primary-color;
           top: 42px;
           transition: all 0.3s ease-out 0s;
         }
   
         .p-small-text {
           position: relative;
-          color: #fff;
-          opacity: 0;
+          color:$primary-color;
           top: 150px;
+          opacity: 0;
           transition: all 0.3s ease-out 0s;
         }
       }

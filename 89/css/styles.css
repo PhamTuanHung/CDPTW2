@@ -15,11 +15,11 @@
   .type-39 .sp .nd .nd1 {
     font-size: 16px; }
   .type-39 .sp .nd .nd2 {
-    font-weight: 700;
-    font-size: 70px; }
-  .type-39 .sp .nd .nd3 {
-    font-weight: 700;
     font-size: 70px;
+    font-weight: 700; }
+  .type-39 .sp .nd .nd3 {
+    font-size: 70px;
+    font-weight: 700;
     padding-bottom: 10%; }
   .type-39 .sp .nd .btn {
     background-color: yellow;
